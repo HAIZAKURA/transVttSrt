@@ -10,11 +10,9 @@ def getFileName(key):
     for getFile in os.listdir(path[0]):
         if key == 'A':
             if os.path.splitext(getFile)[1] == '.vtt':
-                # print(getFile)
                 FileName.append(os.path.splitext(getFile)[0])
         elif key == 'B':
             if os.path.splitext(getFile)[1] == '.srt':
-                # print(getFile)
                 FileName.append(os.path.splitext(getFile)[0])
     return FileName
 
