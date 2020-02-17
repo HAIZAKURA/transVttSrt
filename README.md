@@ -11,4 +11,5 @@ python transVttSrt.py
 ```
 
 ### Another way
-Move ./dist/transVttSrt.exe into subtitle files' directory and open it.
+Go to the [Releases Page](https://github.com/HAIZAKURA/transVttSrt/releases) and download transVttSrt.exe.
+Then move it into the subtitle files' directory and open it.
