@@ -51,7 +51,7 @@ def srt2vtt(inFileName):
     print('[' + inFileName + '] transform completed!')
 
 def main():
-    key = input('A for vtt->srt || B for srt->vtt\n')
+    key = input('[A] vtt->srt || [B] srt->vtt\n')
     print()
     if key == 'A':
         allFileName = getFileName(key)
@@ -72,7 +72,7 @@ def main():
         main()
 
 if __name__ == '__main__':
-    print('\nCurrent directory: ' + path[0])
-    print('\nPlease input the method of subtitle transforming.')
+    print('\n[Notice] Current directory: ' + path[0])
+    print('\nPlease select the method of subtitle transforming.')
     main()
-    input("\nMission Completed.")
+    input("\nMission Completed.\nPress any key to exit.")
